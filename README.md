@@ -2,7 +2,7 @@
 ### A Multi-Dataset Sentiment & Engagement Analytics Pipeline
 
 **Course:** Data Analytics — DS26  
-**Student:** Okah Ahone Ebwekoh | Student ID: 80770239  
+**Student:** Okah Ahone Ebwekoh  
 **Supervisor:** Prof. Nor Azizah Hitam  
 **University:** University of Europe for Applied Sciences  
 **Submitted:** July 2026
