@@ -20,41 +20,30 @@ This project analyzes over 2,800 Reddit posts from r/breakups and r/relationship
 ## 📁 Project Structure
 
 ```
-Final_Project_Submission/
+data-analytics-breakup-project/
 │
-├── Final_Report_v2.docx              → Full project report (8 sections)
-│
-├── data/
-│   ├── raw/
-│   │   ├── relationship_advice.csv   → Original r/relationship_advice dataset
-│   │   └── reddit_breakup_dataset_cleaned.csv  → Original r/breakups dataset
-│   └── processed/
-│       └── merged_clean.csv          → Cleaned, merged dataset (output of notebook)
+├── datasets/
+│ ├── raw/ → Source datasets (not tracked)
+│ └── processed/ → Processed dataset (not tracked)
 │
 ├── notebooks/
-│   └── main_analysis.ipynb           → Full analytical pipeline
+│ └── DA_jupyter notebook.ipynb
 │
 ├── dashboards/
-│   └── dashboard.py                  → Interactive Streamlit dashboard
+│ └── dashboard.py → Interactive Streamlit dashboard
 │
-├── diagrams/
-│   ├── eda_overview.png              → EDA charts (score, length, engagement, hour)
-│   ├── sentiment_analysis.png        → Sentiment distribution and boxplots
-│   ├── wordclouds.png                → Word clouds (positive vs negative)
-│   ├── correlation_heatmap.png       → Feature correlation matrix
-│   ├── pmf_cdf.png                   → PMF and CDF of post score
-│   ├── topic_distribution.png        → LDA topic clustering results
-│   ├── confusion_matrices.png        → Baseline model confusion matrices
-│   ├── confusion_matrices_improved.png → Improved model confusion matrices
-│   ├── feature_importance.png        → RF importance & LR coefficients
-│   ├── model_comparison.png          → Baseline model metrics comparison
-│   └── improvement_comparison.png    → Before vs after recall improvement
+├── diagrams/ → EDA, sentiment, topic & model visualizations
+│
+├── reports/ → Project reports and conference paper
+│
+├── presentations/
+│ └── Data analytics final presentation.pptx
 │
 ├── documentation/
-│   └── README.md                     → This file
+│ └── tools_used.docx
 │
 └── references/
-    └── citation_list.bib             → APA references
+└── citation_list.bib
 ```
 
 ---
