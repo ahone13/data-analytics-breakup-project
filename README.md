@@ -112,15 +112,3 @@ The dashboard will open automatically at `http://localhost:8501`
 - Social & Family Conflict — 14.4%
 
 ---
-
-## 📚 References
-
-Breiman, L. (2001). Random forests. *Machine Learning, 45*(1), 5–32.
-
-Hutto, C. J., & Gilbert, E. (2014). VADER: A parsimonious rule-based model for sentiment analysis of social media text. *ICWSM*.
-
-Pedregosa, F., et al. (2011). Scikit-learn: Machine learning in Python. *JMLR, 12*, 2825–2830.
-
-Shujon, S. (2025). Reddit break up stories dataset 2023–2025. Kaggle.
-
-The Devastator. (2025). Unveiling relationship dynamics with Reddit. Kaggle.
